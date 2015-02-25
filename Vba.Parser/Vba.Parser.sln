@@ -10,7 +10,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{72A793
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vba.Parser", "Vba.Parser\Vba.Parser.csproj", "{D4209ED0-23D8-4FBD-8E8A-67C656ABAF2E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4209ED0-23D8-4FBD-8E8A-67C656ABAF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4209ED0-23D8-4FBD-8E8A-67C656ABAF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4209ED0-23D8-4FBD-8E8A-67C656ABAF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4209ED0-23D8-4FBD-8E8A-67C656ABAF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
